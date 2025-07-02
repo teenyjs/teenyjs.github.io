@@ -18,7 +18,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-country-quiz-mdx-f45.json
-const site_docs_country_quiz_mdx_f45_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"country-quiz","title":"Country Flag & Map Quiz","description":"","source":"@site/docs/country-quiz.mdx","sourceDirName":".","slug":"/country-quiz","permalink":"/games/country-quiz","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"gamesSidebar"}');
+const site_docs_country_quiz_mdx_f45_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"country-quiz","title":"Country Flag & Map Quiz","description":"","source":"@site/docs/country-quiz.mdx","sourceDirName":".","slug":"/country-quiz","permalink":"/games/country-quiz","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"gamesSidebar","next":{"title":"Block Buster: React Edition","permalink":"/games/block-buster"}}');
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(3420);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
@@ -31,7 +31,7 @@ const allCountries=[{name:'Afghanistan',iso2:'af',latitude:33.9391,longitude:67.
 // const mapUrl = currentQuestionCountry
 //   ? `https://maps.google.com/maps?q=${currentQuestionCountry.latitude},${currentQuestionCountry.longitude}&z=2&output=embed`
 //   : '';
-const mapUrl=currentQuestionCountry?`https://www.openstreetmap.org/export/embed.html?bbox=${currentQuestionCountry.longitude-20},${currentQuestionCountry.latitude-10},${currentQuestionCountry.longitude+20},${currentQuestionCountry.latitude+10}&layer=mapnik&marker=${currentQuestionCountry.latitude},${currentQuestionCountry.longitude}`:'';const flagUrl=currentQuestionCountry?`https://flagcdn.com/w1280/${currentQuestionCountry.iso2}.png`:'';const handleChoiceClick=choice=>{if(selectedAnswer)return;setSelectedAnswer(choice);if(choice===currentQuestionCountry.name){setFeedback('Correct! Well done!');}else{setFeedback(`Incorrect. The correct answer was ${currentQuestionCountry.name}.`);}};const handleNextQuestion=()=>{generateNewQuestion();};return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-gray-100 flex flex-col items-center justify-center rounded-lg p-1 !max-w-5xl font-sans",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-white p-6 rounded-lg shadow-lg w-full text-center",children:currentQuestionCountry&&/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"space-y-6",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("h2",{className:"text-2xl font-semibold text-gray-700 rounded-md",children:"Which country is this?"}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:`flex justify-center transition-opacity duration-500 ${showAnswerDetails?'opacity-100':'opacity-0'}`,children:/*#__PURE__*/(0,jsx_runtime.jsx)("img",{src:flagUrl,alt:currentQuestionCountry.name?`${currentQuestionCountry.name} Flag`:'Country Flag',className:"w-full !max-w-sm h-auto rounded-lg shadow-md border border-gray-200",onError:e=>{e.target.onerror=null;// Prevent looping
+const mapUrl=currentQuestionCountry?`https://www.openstreetmap.org/export/embed.html?bbox=${currentQuestionCountry.longitude-20},${currentQuestionCountry.latitude-10},${currentQuestionCountry.longitude+20},${currentQuestionCountry.latitude+10}&layer=mapnik&marker=${currentQuestionCountry.latitude},${currentQuestionCountry.longitude}`:'';const flagUrl=currentQuestionCountry?`https://flagcdn.com/w1280/${currentQuestionCountry.iso2}.png`:'';const handleChoiceClick=choice=>{if(selectedAnswer)return;setSelectedAnswer(choice);if(choice===currentQuestionCountry.name){setFeedback('Correct! Well done!');}else{setFeedback(`Incorrect. The correct answer was ${currentQuestionCountry.name}.`);}};const handleNextQuestion=()=>{generateNewQuestion();};return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-gray-100 flex flex-col items-center justify-center rounded-lg p-1 !max-w-5xl font-sans",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"bg-white p-6 rounded-lg shadow-lg w-full text-center",children:currentQuestionCountry&&/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"space-y-6",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("h2",{className:"text-2xl font-semibold !text-gray-700 rounded-md",children:"Which country is this?"}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:`flex justify-center transition-opacity duration-500 ${showAnswerDetails?'opacity-100':'opacity-0'}`,children:/*#__PURE__*/(0,jsx_runtime.jsx)("img",{src:flagUrl,alt:currentQuestionCountry.name?`${currentQuestionCountry.name} Flag`:'Country Flag',className:"w-full !max-w-sm h-auto rounded-lg shadow-md border border-gray-200",onError:e=>{e.target.onerror=null;// Prevent looping
 e.target.src='https://placehold.co/300x200/cccccc/333333?text=Flag+Not+Found';// Placeholder on error
 }})}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"mb-5 flex flex-wrap justify-center gap-4",children:choices.map(choice=>/*#__PURE__*/(0,jsx_runtime.jsx)("button",{onClick:()=>handleChoiceClick(choice),disabled:selectedAnswer!==null,className:`
                     cursor-pointer px-5 py-2 rounded-full border-2 text-lg font-semibold transition-all duration-300 ease-in-out
@@ -85,6 +85,101 @@ function MDXContent(props = {}) {
   }) : _createMdxContent(props);
 }
 
+
+
+/***/ }),
+
+/***/ 5404:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   R: () => (/* binding */ useMDXComponents),
+/* harmony export */   x: () => (/* binding */ MDXProvider)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6672);
+/**
+ * @import {MDXComponents} from 'mdx/types.js'
+ * @import {Component, ReactElement, ReactNode} from 'react'
+ */
+
+/**
+ * @callback MergeComponents
+ *   Custom merge function.
+ * @param {Readonly<MDXComponents>} currentComponents
+ *   Current components from the context.
+ * @returns {MDXComponents}
+ *   Additional components.
+ *
+ * @typedef Props
+ *   Configuration for `MDXProvider`.
+ * @property {ReactNode | null | undefined} [children]
+ *   Children (optional).
+ * @property {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @property {boolean | null | undefined} [disableParentContext=false]
+ *   Turn off outer component context (default: `false`).
+ */
+
+
+
+/** @type {Readonly<MDXComponents>} */
+const emptyComponents = {}
+
+const MDXContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(emptyComponents)
+
+/**
+ * Get current components from the MDX Context.
+ *
+ * @param {Readonly<MDXComponents> | MergeComponents | null | undefined} [components]
+ *   Additional components to use or a function that creates them (optional).
+ * @returns {MDXComponents}
+ *   Current components.
+ */
+function useMDXComponents(components) {
+  const contextComponents = react__WEBPACK_IMPORTED_MODULE_0__.useContext(MDXContext)
+
+  // Memoize to avoid unnecessary top-level context changes
+  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(
+    function () {
+      // Custom merge via a function prop
+      if (typeof components === 'function') {
+        return components(contextComponents)
+      }
+
+      return {...contextComponents, ...components}
+    },
+    [contextComponents, components]
+  )
+}
+
+/**
+ * Provider for MDX context.
+ *
+ * @param {Readonly<Props>} properties
+ *   Properties.
+ * @returns {ReactElement}
+ *   Element.
+ * @satisfies {Component}
+ */
+function MDXProvider(properties) {
+  /** @type {Readonly<MDXComponents>} */
+  let allComponents
+
+  if (properties.disableParentContext) {
+    allComponents =
+      typeof properties.components === 'function'
+        ? properties.components(emptyComponents)
+        : properties.components || emptyComponents
+  } else {
+    allComponents = useMDXComponents(properties.components)
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0__.createElement(
+    MDXContext.Provider,
+    {value: allComponents},
+    properties.children
+  )
+}
 
 
 /***/ })

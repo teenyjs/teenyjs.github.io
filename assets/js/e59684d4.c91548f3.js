@@ -113,7 +113,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-block-buster-mdx-e59.json
-const site_docs_block_buster_mdx_e59_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"block-buster","title":"Block Buster: React Edition","description":"","source":"@site/docs/block-buster.mdx","sourceDirName":".","slug":"/block-buster","permalink":"/games/block-buster","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"sidebar_position":2},"sidebar":"gamesSidebar","previous":{"title":"Country Flag & Map Quiz","permalink":"/games/country-quiz"}}');
+const site_docs_block_buster_mdx_e59_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"block-buster","title":"Block Buster: React Edition","description":"","source":"@site/docs/block-buster.mdx","sourceDirName":".","slug":"/block-buster","permalink":"/games/block-buster","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"sidebar_position":2},"sidebar":"gamesSidebar","previous":{"title":"Country Flag & Map Quiz","permalink":"/games/country-quiz"},"next":{"title":"Hangman","permalink":"/games/hangman"}}');
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(3420);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js

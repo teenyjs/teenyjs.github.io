@@ -18,7 +18,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-hangman-mdx-d12.json
-const site_docs_hangman_mdx_d12_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"hangman","title":"Hangman","description":"","source":"@site/docs/hangman.mdx","sourceDirName":".","slug":"/hangman","permalink":"/games/hangman","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":3,"frontMatter":{"sidebar_position":3},"sidebar":"gamesSidebar","previous":{"title":"Block Buster: React Edition","permalink":"/games/block-buster"}}');
+const site_docs_hangman_mdx_d12_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"hangman","title":"Hangman","description":"","source":"@site/docs/hangman.mdx","sourceDirName":".","slug":"/hangman","permalink":"/games/hangman","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":3,"frontMatter":{"sidebar_position":3},"sidebar":"gamesSidebar","previous":{"title":"Block Buster: React Edition","permalink":"/games/block-buster"},"next":{"title":"sudoku","permalink":"/games/sudoku"}}');
 // EXTERNAL MODULE: ./node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(3420);
 // EXTERNAL MODULE: ./node_modules/.pnpm/@mdx-js+react@3.1.0_@types+react@19.1.8_react@19.1.0/node_modules/@mdx-js/react/lib/index.js
